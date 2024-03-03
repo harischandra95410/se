@@ -1,0 +1,29 @@
+<h1>Hello welcome to webpage</h1>
+<div class="card w-50 mx-center mt-4">
+  <h1 class="card-header text-center">login</h1>
+  <div class="card-body">
+    <form action="" #r ngform>
+      <div class="form-group">
+        <label>Full-name</label><br>
+        <input type="text" ngmodel name="fullname" placeholder= "enter the full name" class="form-control">
+      </div><br>
+      <div class="form-group">
+        <label>E-Mail</label><br>
+        <input type="email" ngmodel name="E-MAIL" placeholder="enter the valid email" class="form-control">
+      </div><br>
+      <div class="form-group">
+        <label>password</label><br>
+
+      <input type="password" ngmodel name="password" placeholder="enter password"class="form-control">
+      </div><br>
+      <div class="form-group">
+        <label>conform password</label><br>
+        <input type="password" ngmodel name="conformpassword " placeholder="enter conformpassword"class="form-control">
+      </div><br>
+<button class="btn btn-primary" (click)="show(r)">login</button>
+
+  </form>
+  </div>
+</div>
+
+
